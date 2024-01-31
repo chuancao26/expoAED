@@ -1,0 +1,9 @@
+is a combination of a linked list and a arrary
+ existe un problema con las linked list, cada nodo tiene 2 datos un puntero al siguiente elemento y un dato. Existe un cantidad de n punteros para almacenar n datos lo que implica un sobregasto de recursos en estos punteros  
+primera ventaja:
+less overhead porque este tiene menor cantidad de putneros asociados al numero de datos 
+segungo
+ performance en inertion deletion and traversal:
+tercer cache behavior
+desventaja meyor overhead por nodo:
+en este caso tenemos que cada nodo de esta unrolled linked list sera mas pesado en comparacion con una lista enlazada simple. dado que en cada nodo tenemos que reservar memoria para un array de elementos
